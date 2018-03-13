@@ -93,7 +93,7 @@ namespace ETHotfix
 			        Log.Error($"登录失败:{r2CLogin.Error}");
 			        return;
 			    }
-				sessionWrap.Dispose();
+//				sessionWrap.Dispose();
 
                 //连接gate
 			    IPEndPoint connetEndPoint = NetworkHelper.ToIPEndPoint(r2CLogin.Address);
